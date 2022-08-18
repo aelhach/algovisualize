@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Playfair+Display:wght@800&family=Roboto:wght@900&family=Silkscreen&display=swap');
+
+button{
+    font-family: "Lato";
+}
+.inv{
+    visibility: hidden;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fafafb;
+    
+}
+
+.btn{
+    --bs-btn-hover-bg: #212529;
+  --bs-btn-focus-shadow-rgb: white;
+  width: 227px;
+
+  
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formwrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border: solid 1px #e4e7ea;
+    padding: 1.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #212529c7;
+    --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+    border-radius: 0.375rem;
+    
+
+}
+.formwrap input{
+    border-color : #21252973;
+    
+}
+
+.sort{
+    margin-top: 20px;
+    position: absolute;
+    left: 40%;
+
+}
+
+.canvas1{
+    height: 100%;
+    width: 100%;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border: 1px solid ;
+    border-color : #21252973;
+    padding-left: 0.5rem;
+    
+
+}
+
+.canvas2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    padding-left: 0.5rem;
+    border: 1px solid ;
+    border-color : #21252973;
+
+}
+
+.canvas1 div, .canvas2 div{
+    height: 100px;
+    width: 25px;
+
+    /* Created with https://www.css-gradient.com */
+    background: #edf3f8;
+    
+    border: solid 1px rgb(0, 0, 0);
+
+    margin-right: 45px;
+}
+
+span{
+    position: relative;
+    bottom: 1.8rem;
+    right: 0rem;
+}
+
+
+.welcome{
+    height: 100vh;
+    width: 100vw;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    letter-spacing: 0.05rem;
+
+    z-index: 1000;
+}
+
+.welcome h1{
+    font-family: "Lato";
+    color:#edf3f8;
+    font-size: 4rem;
+}
+
+.welcome p{
+    font-family: "Lato";
+    color:#edf3f8;
+    margin-bottom: 8px;
+    
+    
+}
+
+.welcome span{
+    font-family: "silkscreen";
+    color:#edf3f8;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.welcome button{
+    font-family: "Lato";
+    color:#edf3f8;
+    margin-top: 0.9rem;
+}
+
+.welcome *{
+    margin-bottom: 20px;
+}
+
